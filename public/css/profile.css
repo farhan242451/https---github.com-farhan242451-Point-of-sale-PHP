@@ -1,0 +1,33 @@
+.card {
+    border-radius: 0.75rem;
+}
+
+.card-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.profile-photo {
+    border-radius: 0.25rem;
+    max-width: 200px;
+    height: auto;
+}
+
+.gallery-photo {
+    border-radius: 0.25rem;
+    max-width: 100px;
+    height: 100px; /* Set height to make it a square */
+    object-fit: cover; /* Ensure image covers the square without distortion */
+}
+
+.list-unstyled {
+    padding-left: 0;
+}
+
+.list-unstyled li {
+    display: inline-block;
+    margin-right: 10px;
+}

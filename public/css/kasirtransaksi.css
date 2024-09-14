@@ -1,0 +1,64 @@
+/* styles.css */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.table thead th {
+    font-weight: bold;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.table-hover tbody tr td {
+    vertical-align: middle;
+}
+
+.img-fluid {
+    width: 200px;  /* Set desired width */
+    height: 200px; /* Set desired height */
+    object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+}
+
+
+.image-container {
+    position: relative;
+    width: 200px; /* Adjust width as needed */
+    max-width: 200px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    color: white;
+    text-align: center;
+    padding: 5px; /* Adjust padding as needed */
+    font-size: 12px; /* Adjust font size as needed */
+    display: block;
+}
+

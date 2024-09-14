@@ -1,0 +1,6 @@
+#dailySalesChart, #monthlySalesChart {
+    display: block; /* Pastikan canvas tidak dipengaruhi oleh aturan display yang tidak diinginkan */
+    width: 400% !important; /* Atur lebar canvas sesuai kebutuhan */
+    height: 600px !important; /* Atur tinggi canvas sesuai kebutuhan */
+    max-width: 100%; /* Batasi lebar canvas agar tidak melebihi kontainer */
+}
